@@ -85,5 +85,8 @@ html, body {
 .content {
   font-size: 16px;
   color: red;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow: scroll;
+  height: 400px;
+  padding-bottom: 10px;
 }
