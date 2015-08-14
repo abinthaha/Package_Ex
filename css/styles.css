@@ -1,0 +1,89 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+#wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.my_container{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 100;
+  border: 1px solid aqua;
+  border-radius: 5px;
+}
+
+.page-header {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 0px 0px;
+  padding: 5px 5px;
+  color: black;
+  text-align: center;
+}
+
+#disclaimer {
+  display: inline-block;
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: 6px;
+}
+
+#disclaimer:hover, #disclaimer:active {
+  background-color: rgba(0, 255, 200, 0.5);
+}
+
+#container_table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  margin: 5px 5px;
+}
+
+.plan_header {
+  padding: 2px 2px;
+  display: block;
+  border-bottom: 1px solid grey;
+  font-size: 20px;
+}
+
+.footer {
+  border-top: 1px solid grey;
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+.submit_button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 100%;
+  border: 1px solid transparent;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.submit_button:hover {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.content {
+  font-size: 16px;
+  color: red;
+  overflow: hidden;
+}
